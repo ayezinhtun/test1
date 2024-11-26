@@ -1,0 +1,13 @@
+/* nav section start */
+.navbar ul li a{
+    border-radius: 20px;
+}
+nav .nav-item .active{
+    border: 1px solid white;
+}
+nav .nav-item .nav-link:hover{
+    border: 1px solid white;
+}
+.group{
+    background-color: blue;
+}

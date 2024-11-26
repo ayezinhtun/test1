@@ -1,0 +1,123 @@
+/* nav section start */
+.navbar ul li a{
+    border-radius: 20px;
+}
+nav .nav-item .active{
+    border: 1px solid white;
+}
+nav .nav-item .nav-link:hover{
+    border: 1px solid white;
+}
+.topnav .hero h2::before{
+    content: ' ';
+    width: 100%;
+    height: 280px;
+    background-color: blue;
+    position: absolute;
+    z-index: -99;
+    top: 0;
+    left: 0;
+}
+
+/* home section start */
+#home input{
+    border: 1px solid orange;
+    border-radius: 7px;
+    outline: none;
+    background-color: white;
+}
+#home button{
+    border: 1px solid orange;
+    border-radius: 7px;
+    outline: none;
+    background-color: white;
+}
+#home form .dropdown li{
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+#home form .dropdown li:hover{
+    border-bottom: 1px solid lightgrey;
+    color: blue;
+}
+/* offer section start */
+.container .img1{
+    position: absolute;
+    border-radius: 20px;
+    top: 25%;
+    right: 2%;
+}
+.container .img2{
+    position: absolute;
+    border-radius: 20px;
+    top: 30%;
+    right: 2%;
+}
+
+
+/* trending section strat */
+#trending .container .bg1{
+    background-image: url(imgs/dublin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+#trending .container .bg1:hover{
+    transform: scale(1.05);
+}
+
+#trending .container .bg2{
+    background-image: url(imgs/london.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+#trending .container .bg2:hover{
+    transform: scale(1.05);
+}
+
+
+#trending .container .bg3{
+    background-image: url(imgs/london.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+#trending .container .bg3:hover{
+    transform: scale(1.05);
+}
+#trending .container .bg4{
+    background-image: url(imgs/cork.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+#trending .container .bg4:hover{
+    transform: scale(1.05);
+}
+#trending .container .bg5{
+    background-image: url(imgs/belfast.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+#trending .container .bg5:hover{
+    transform: scale(1.05);
+}
+
